@@ -9,7 +9,7 @@ Instalace
 
     $ composer require bigit/vokativ
 
-Podporované verze PHP 5.6+
+Podporované verze PHP 7+ a 8+
 
 Použití
 =======
