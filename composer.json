@@ -1,16 +1,21 @@
 {
     "name": "bigit/vokativ",
-    "description": "Knihovna pro skloňování českých jmen do 5. pádu pro účely generování oslovení.",
+    "description": "Fork knihovny bigit/vokativ upravený pro PHP verzi 8. Knihovna pro skloňování českých jmen do 5. pádu pro účely generování oslovení.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Petr Joachim",
             "email": "petr@joachim.cz"
+        },
+        {
+            "name": "Matouš Czerner",
+            "email": "czerner.matous@gmail.com"
         }
     ],
     "require": {
-        "php": "^5.5 || ^7.0"
+        "php": "^7.4 || ^8.0",
+        "ext-mbstring": "*"
     },
     "autoload": {
         "psr-4": {
@@ -23,7 +28,7 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8"
+        "phpunit/phpunit": "^10.0"
     },
     "scripts": {
         "test": "./vendor/bin/phpunit --bootstrap vendor/autoload.php test"
