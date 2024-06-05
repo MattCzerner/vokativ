@@ -7,7 +7,7 @@ Vokativ
 Instalace
 =========
 
-    $ composer require bigit/vokativ
+    $ composer require mattczerner/vokativ
 
 Podporované verze PHP 7+ a 8+
 
