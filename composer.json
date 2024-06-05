@@ -1,5 +1,5 @@
 {
-    "name": "bigit/vokativ",
+    "name": "mattczerner/vokativ",
     "description": "Fork knihovny bigit/vokativ upravený pro PHP verzi 8. Knihovna pro skloňování českých jmen do 5. pádu pro účely generování oslovení.",
     "type": "library",
     "license": "MIT",
